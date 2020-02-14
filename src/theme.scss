@@ -1,0 +1,36 @@
+
+@import '~@angular/material/theming';
+////@import 'my-theme.scss';
+
+$primary: mat-palette($mat-indigo, 700, 300, 900);
+$accent: mat-palette($mat-light-blue);
+$warn: mat-palette($mat-deep-orange, A200);
+
+.body {
+  margin:0;
+  background-color: #222;
+};
+$my-theme: mat-light-theme(
+    $primary,
+    $accent,
+    $warn
+);
+//@include my-app-theme($theme);
+//@include angular-material-theme($my-theme)
+//$my-dark-theme-background: (
+//  status-bar: green,
+//  app-bar:    map_get($mat-blue, 900),
+//  background: orange,
+//  hover:      rgba(white, 0.04),
+//  card:       map_get($mat-red, 800),
+//  dialog:     map_get($mat-grey, 800),
+//  disabled-button: $white-12-opacity,
+//  raised-button: map-get($mat-grey, 800),
+//  focused-button: $white-6-opacity,
+//  selected-button: map_get($mat-grey, 900),
+//  selected-disabled-button: map_get($mat-grey, 800),
+//  disabled-button-toggle: black,
+//  unselected-chip: map_get($mat-grey, 700),
+//  disabled-list-option: black,
+//
+//);

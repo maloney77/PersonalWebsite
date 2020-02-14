@@ -1,0 +1,17 @@
+.app_welcome-message {
+  padding-top: 50px;
+  color: white;
+  font-size: xx-large;
+  background-color: purple;
+}
+
+.app_container {
+  display: block;
+}
+
+.app_page {
+  position: relative;
+  height: 100px;
+  display: block;
+}
+

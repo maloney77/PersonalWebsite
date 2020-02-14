@@ -1,0 +1,78 @@
+.info-page_welcome {
+  color: white;
+  font-size: 75px;
+}
+.info-page_picture-carousel {
+  background-color: red;
+
+}
+
+.info-page_picture {
+  width: 234px;
+  height: 234px;
+  margin-top: 20px;
+}
+.info-page_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.info-page_description {
+  font-size: 30px;
+  color: white;
+  margin-top:30px;
+  width: 70%;
+}
+
+.info-page_about-me {
+  font-size: 30px;
+  color: white;
+  margin-top:30px;
+}
+
+.info-page_accordion {
+  width: 70%;
+  margin-top: 30px;
+}
+
+/*.info-page_professional-header {*/
+  /*border-bottom: black;*/
+  /*border-bottom-width: 100px;*/
+/*}*/
+.info-page_professional-title {
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+.info-page_professional-panel {
+  background-color: gray;
+}
+
+.info-page_professional-desc {
+  color: whitesmoke;
+  font-size: larger;
+}
+
+.professional-info {
+  color: whitesmoke;
+  font-size: larger;
+}
+.mat-tab-labels {
+  color: whitesmoke;
+  font-size: larger;
+  text-align: left;
+}
+
+.professional_picture {
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.professional_header {
+  font-size: xx-large;
+  color: whitesmoke;
+}
